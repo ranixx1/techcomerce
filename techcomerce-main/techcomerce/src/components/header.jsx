@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -14,17 +15,17 @@ function Header() {
                     <button>Buscar</button>
                 </div>
                 <div className="user-options">
-                    <a href="#login">Olá, faça seu login</a>
-                    <a href="#carrinho">Carrinho</a>
+                    <Link to="#login">Olá, faça seu login</Link>
+                    <Link to="#carrinho">Carrinho</Link>
                 </div>
             </div>
             <nav className="navigation">
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Produtos">Produtos</a></li>
-                    <li><a href="#Ofertas">Ofertas do Dia</a></li>
-                    <li><a href="#Mais-vendidos">Mais Vendidos</a></li>
-                    <li><a href="#Contatos">Contato</a></li>
+                    <li><Link to={"/"}>Home</Link></li>
+                    <li><Link to={"/Produtos"}>Produtos</Link></li>
+                    <li><Link to={"/OfertasDoDia"}>Ofertas do Dia</Link></li>
+                    <li><Link to={"/Mais-vendidos"}>Mais Vendidos</Link></li>
+                    <li><Link to={"/Contatos"}>Contato</Link></li>
                 </ul>
             </nav>
         </header>
