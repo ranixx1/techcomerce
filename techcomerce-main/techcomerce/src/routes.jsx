@@ -6,6 +6,7 @@ import OfertasDoDia from './pages/OfertasDoDia/index';
 import Contatos from './pages/Contatos/index';
 import Usuarios from './pages/Usuarios/login';
 import Carrinho from './pages/Carrinho/carrinho';
+import Cadastro from './pages/Cadastro/cadastro';
 
 function AppRoutes() {
     return (
@@ -18,6 +19,7 @@ function AppRoutes() {
                 <Route path="/contatos" element={<Contatos />} />
                 <Route path="/login" element={<Usuarios />} />
                 <Route path="/carrinho" element={<Carrinho />} />
+                <Route path="/cadastro" element={<Cadastro />} />
             </Routes>
         </Router>
     );

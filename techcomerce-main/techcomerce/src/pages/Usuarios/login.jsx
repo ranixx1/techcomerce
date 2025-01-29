@@ -21,6 +21,7 @@ function Login() {
                     </div>
                     <button type="submit" className={styles.button}>Entrar</button>
                 </form>
+                <p className={styles.registerText}>Ainda não tem uma conta? <a href="/cadastro" className={styles.registerLink}>Cadastre-se</a></p>
             </main>
             <Footer />
         </>

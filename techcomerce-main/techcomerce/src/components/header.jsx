@@ -15,8 +15,8 @@ function Header() {
                     <button>Buscar</button>
                 </div>
                 <div className="user-options">
-                    <Link to="/Login">Olá, faça seu login</Link> {/* Corrigido */}
-                    <Link to="/Carrinho">Carrinho</Link> {/* Corrigido */}
+                    <Link to="/Login">Olá, faça seu login</Link> 
+                    <Link to="/Carrinho">Carrinho</Link> 
                 </div>
             </div>
             <nav className="navigation">
