@@ -4,6 +4,8 @@ import Produtos from './pages/produtos/index';
 import MaisVendidos from './pages/MaisVendidos/index';
 import OfertasDoDia from './pages/OfertasDoDia/index';
 import Contatos from './pages/Contatos/index';
+import Usuarios from './pages/Usuarios/login';
+import Carrinho from './pages/Carrinho/carrinho';
 
 function AppRoutes() {
     return (
@@ -14,6 +16,8 @@ function AppRoutes() {
                 <Route path="/maisvendidos" element={<MaisVendidos />} />
                 <Route path="/ofertasdodia" element={<OfertasDoDia />} />
                 <Route path="/contatos" element={<Contatos />} />
+                <Route path="/login" element={<Usuarios />} />
+                <Route path="/carrinho" element={<Carrinho />} />
             </Routes>
         </Router>
     );
