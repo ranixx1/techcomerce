@@ -8,7 +8,8 @@ function Header() {
             <div className="header-top"></div>
             <div className="header-content">
                 <div className="logo">
-                    <img src="/image5.jpeg" alt="Logo" />
+                    <Link to ={"/"}> <img src="/image5.jpeg" alt="Logo" /></Link>
+                   
                 </div>
                 <div className="search-bar">
                     <input type="text" placeholder="Pesquisar produtos" />
@@ -22,7 +23,7 @@ function Header() {
             <nav className="navigation">
                 <ul>
                     <li><Link to={"/"}>Home</Link></li>
-                    <li><Link to={"/Produtos"}>Produtos</Link></li>
+                    <li><Link to={"Produtos"}>Produtos</Link></li>
                     <li><Link to={"/OfertasDoDia"}>Ofertas do Dia</Link></li>
                     <li><Link to={"/Mais-vendidos"}>Mais Vendidos</Link></li>
                     <li><Link to={"/Contatos"}>Contato</Link></li>
