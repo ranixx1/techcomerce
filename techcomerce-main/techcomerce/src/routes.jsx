@@ -6,7 +6,7 @@ import OfertasDoDia from './pages/OfertasDoDia/index';
 import Contatos from './pages/Contatos/index';
 import Usuarios from './pages/Usuarios/login';
 import Carrinho from './pages/Carrinho/carrinho';
-import Cadastro from './pages/Cadastro/cadastro';
+import Cadastro from './pages/Usuarios/cadastro';
 
 function AppRoutes() {
     return (
