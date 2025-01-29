@@ -1,6 +1,13 @@
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 function Produtos(){
     return (
-        <h1>Os melhores Produtos estão aqui</h1>
+        <>
+        <Header />
+        <h1>As melhores Ofertas estão aqui</h1>
+        <Footer />
+        </>
     );
 }
 export default Produtos;

@@ -1,23 +1,22 @@
-import { BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from './pages/Home';
-import Contatos from './pages/Contatos';
-import MaisVendidos from './pages/MaisVendidos';
-import OfertasDoDia from "./pages/OfertasDoDia";
-import Produtos from "./pages/produtos";
-import Usuario from "./pages/Usuario";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/index';
+import Produtos from './pages/produtos/index';
+import MaisVendidos from './pages/MaisVendidos/index';
+import OfertasDoDia from './pages/OfertasDoDia/index';
+import Contatos from './pages/Contatos/index';
 
-function AppRoutes(){
+function AppRoutes() {
     return (
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Contatos" element={<Contatos/>}/>
-            <Route path="/MaisVendidos" element={<MaisVendidos/>}/>
-            <Route path="/OfertasDoDia" element={<OfertasDoDia/>}/>
-            <Route path="/Produtos" element={<Produtos/>}/>
-            <Route path="/Usuario" element={<Usuario/>}/>
-        </Routes>
-        </BrowserRouter>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/produtos" element={<Produtos />} />
+                <Route path="/maisvendidos" element={<MaisVendidos />} />
+                <Route path="/ofertasdodia" element={<OfertasDoDia />} />
+                <Route path="/contatos" element={<Contatos />} />
+            </Routes>
+        </Router>
     );
-};
+}
+
 export default AppRoutes;

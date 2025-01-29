@@ -25,7 +25,7 @@ function Header() {
                     <li><Link to={"/"}>Home</Link></li>
                     <li><Link to={"Produtos"}>Produtos</Link></li>
                     <li><Link to={"/OfertasDoDia"}>Ofertas do Dia</Link></li>
-                    <li><Link to={"/Mais-vendidos"}>Mais Vendidos</Link></li>
+                    <li><Link to={"/MaisVendidos"}>Mais Vendidos</Link></li>
                     <li><Link to={"/Contatos"}>Contato</Link></li>
                 </ul>
             </nav>
